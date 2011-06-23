@@ -1,2 +1,65 @@
-hi, there<br />
-ulis/apit
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>pernikahan ulis_apit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="media/style.css?v=1">
+  <script src="js/libs/modernizr-1.7.min.js"></script>
+</head>
+
+<body>
+  <div id="w">
+    <div id="hd">
+        <h1>pernikahan ulis dan apit</h1>
+        <ul>
+            <li class="m"><a href="#cp">pernikahan();</a></li>
+            <li class="m"><a href="#cd">denah();</a></li>
+            <li class="m"><a href="#cgb">buku_tamu();</a></li>
+        </ul>
+        <div class="cl"></div>
+    </div>
+    <div id="main" role="main">
+        <div id="cp" class="c">
+            <dl>akad</dl>
+            <dd><span>('</span>minggu, 3 juli pkl. 08.00-s.d. selesai<span>');</span></dd>
+            <dl>resepsi</dl>
+            <dd><span>('</span>minggu, 3 juli pkl. 08.00-s.d. selesai<span>');</span></dd>
+             <dl>tempat</dl>
+            <dd><span>('</span>gdg. langen palikrama, pegadaian. jl magelang km 12 sleman, jogja.<span>');</span></dd>
+        </div>
+        <div id="cd" class="c">
+            <img src="media/m.png" />
+        </div>
+
+        <div id="cgb" class="c">
+            <div id="disqus_thread"></div>
+            <p><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a></p>
+        </div>
+        <div class="cl"></div>
+    </div>
+    <div id="ft"><span>}</span></div>
+  </div> <!--/#w -->
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+<script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
+<script>$(function() {
+    $("#hd a").click(function() {
+        $('#main .c').hide().parent().find(this.href.substr(this.href.indexOf('#'))).show();
+
+    });
+}); </script>
+
+<script type="text/javascript">
+    var disqus_shortname = 'ulisapitwed'; // required: replace example with your forum shortname
+    var disqus_identifier = 'ulis_apit_wed_home';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</body>
+</html>
