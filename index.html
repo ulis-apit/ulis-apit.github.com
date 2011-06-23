@@ -2,7 +2,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>pernikahan ulis_apit</title>
+  <title>ulis/apit</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="media/style.css?v=1">
   <script src="js/libs/modernizr-1.7.min.js"></script>
@@ -22,9 +22,9 @@
     <div id="main" role="main">
         <div id="cp" class="c">
             <dl>akad</dl>
-            <dd><span>('</span>minggu, 3 juli pkl. 08.00-s.d. selesai<span>');</span></dd>
+            <dd><span>('</span>minggu, 3 juli pkl. 8:00<span>');</span></dd>
             <dl>resepsi</dl>
-            <dd><span>('</span>minggu, 3 juli pkl. 08.00-s.d. selesai<span>');</span></dd>
+            <dd><span>('</span>minggu, 3 juli pkl. 11:00-s.d. 13:00<span>');</span></dd>
              <dl>tempat</dl>
             <dd><span>('</span>gdg. langen palikrama, pegadaian. jl magelang km 12 sleman, jogja.<span>');</span></dd>
         </div>
@@ -45,21 +45,16 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
 <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
 <script>$(function() {
-    $("#hd a").click(function() {
-        $('#main .c').hide().parent().find(this.href.substr(this.href.indexOf('#'))).show();
-
-    });
-}); </script>
-
-<script type="text/javascript">
-    var disqus_shortname = 'ulisapitwed'; // required: replace example with your forum shortname
-    var disqus_identifier = 'ulis_apit_wed_home';
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+    $("#hd a").click(function() { $('#main .c').hide().parent().find(this.href.substr(this.href.indexOf('#'))).show();});
+});
+var disqus_shortname = 'ulisapitwed'; // required: replace example with your forum shortname
+var disqus_identifier = 'ulis_apit_wed_home';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
 </script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<noscript>javascript-nya disabled kah?</noscript>
 </body>
 </html>
